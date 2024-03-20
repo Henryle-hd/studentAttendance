@@ -4,4 +4,4 @@
 
 # How to use
 
-![video showing how to use students attendance](/assets/ClassAttendanceintroVideo.mp4)
+![gif showing how to use students attendance](/assets/ClassAttendanceintroVideo-ezgif.com-video-to-gif-converter.gif)
