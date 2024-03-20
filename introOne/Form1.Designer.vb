@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         btnAttede = New Button()
         listAttendee = New ListBox()
         TextFirstName = New TextBox()
@@ -140,8 +141,9 @@ Partial Class Form1
         Controls.Add(TextFirstName)
         Controls.Add(listAttendee)
         Controls.Add(btnAttede)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "Form1"
-        Text = "Class Attendence Register"
+        Text = "Class Attendence"
         ResumeLayout(False)
         PerformLayout()
     End Sub
