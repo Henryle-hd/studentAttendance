@@ -1,6 +1,6 @@
 # Student Attendance
 
-![icon image](/assets/android-chrome-512x512.png)
+![icon image](/assets/favicon.png)
 
 # How to use
 
