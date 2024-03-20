@@ -4,4 +4,4 @@
 
 # How to use
 
-[video showing how to use students attendance](/assets/ClassAttendanceintroVideo.mp4)
+![video showing how to use students attendance](/assets/ClassAttendanceintroVideo.mp4)
