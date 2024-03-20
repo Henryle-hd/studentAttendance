@@ -3,7 +3,7 @@
     Dim iAttendeeNo As Integer
     Private Sub btnGo_Click(sender As Object, e As EventArgs) Handles btnAttede.Click
 
-        iAttendeeNo = iAttendeeNo + 1
+
 
         Dim stFirstName As String
         Dim stLastName As String
@@ -17,10 +17,10 @@
             MsgBox("All Input requred!", vbCritical, "Missing Input")
 
         Else
+            iAttendeeNo = iAttendeeNo + 1
             TextFirstName.Text = ""
             textLastName.Text = ""
             TextReg.Text = ""
-
             listAttendee.Items.Add("" & iAttendeeNo & ". " & stFirstName & " " & stLastName & " ——→ " & stReg)
 
         End If
