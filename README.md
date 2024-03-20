@@ -1,6 +1,6 @@
 # Student Attendance
 
-![icon image](/assets/favicon.png)
+![icon image](/assets/favicon-32x32.png)
 
 # How to use
 
